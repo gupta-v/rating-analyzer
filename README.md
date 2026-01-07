@@ -5,14 +5,17 @@
 **Repository:** [github.com/gupta-v/rating-analyzer](https://github.com/gupta-v/rating-analyzer)  
 **Date:** 07 January 2026
 
+> **⚡ Note:** This entire assessment (both tasks + deployment) was completed in a single day (24 hours) on 07 January 2026 after discovering the email late due to inbox spam/overflow.
+
 ---
 
 ## 📌 Quick Links
 
 - 📦 **GitHub Repository:** [github.com/gupta-v/rating-analyzer](https://github.com/gupta-v/rating-analyzer)
-- 🌐 **Live Demo:** _Render URL will be added here_
+- 🌐 **Live User Dashboard:** [https://feedback-analyzer-1h2f.onrender.com/](https://feedback-analyzer-1h2f.onrender.com/)
+- 🔐 **Live Admin Dashboard:** [https://feedback-analyzer-1h2f.onrender.com/admin](https://feedback-analyzer-1h2f.onrender.com/admin) (admin/admin123)
 - 📊 **Task 1 Analysis:** `notebooks/EDA.ipynb`
-- 🖥️ **Task 2 Dashboard:** Run locally or access live demo
+- 🖥️ **Task 2 Dashboard:** Access via live URLs above or run locally
 
 ---
 
