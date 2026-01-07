@@ -2,20 +2,24 @@ from fastapi import FastAPI, Request, Form, Response, status
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from db import save_review, get_reviews, update_analysis
-from generate import get_gemini_response
-from prompts import get_analysis_prompt
+from dashboard.db import save_review, get_reviews, update_analysis
+from dashboard.generate import get_gemini_response
+from dashboard.prompts import get_analysis_prompt
 import json
 import os
 import uvicorn
 
 app = FastAPI()
 
-# 1. SETUP: Templates & Static Files
-templates = Jinja2Templates(directory="templates")
-if not os.path.exists("static"): 
-    os.makedirs("static")
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# 1. SETUP: Templates & Static Files (use absolute path relative to this file)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+templates_dir = os.path.join(current_dir, "templates")
+static_dir = os.path.join(current_dir, "static")
+
+templates = Jinja2Templates(directory=templates_dir)
+if not os.path.exists(static_dir): 
+    os.makedirs(static_dir)
+app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
 # 2. CONFIG: Admin Credentials & Security
 COOKIE_NAME = "admin_session"

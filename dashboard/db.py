@@ -2,7 +2,9 @@ import json
 import os
 from datetime import datetime
 
-DB_FILE = "reviews.json"
+# Use absolute path relative to this file
+current_dir = os.path.dirname(os.path.abspath(__file__))
+DB_FILE = os.path.join(current_dir, "reviews.json")
 
 def init_db():
     if not os.path.exists(DB_FILE):

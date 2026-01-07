@@ -66,5 +66,22 @@
             ],
             "action_item": "Immediately escalate the package location investigation and audit the provided logistics partner contact information for accuracy and responsiveness."
         }
+    },
+    {
+        "id": 5,
+        "timestamp": "2026-01-07 20:12",
+        "name": "Alias Rose",
+        "text": "I recently visited this food court and was thoroughly impressed by the cleanliness of the seating area. Unlike most crowded malls, the cleaning staff here is extremely proactive, ensuring tables are cleared and sanitized almost immediately.\r\nThe freshness of the food was the highlight\u2014you can tell the ingredients haven't been sitting under heat lamps all day. I ordered from two different stalls, and both served steaming hot, high-quality meals. The service was incredibly fast; despite the lunch rush, I had my food in less than 8 minutes.\r\nThe only reason I\u2019m giving 4 stars instead of 5 is that the digital payment system was a bit glitchy, and I wish there were a few more healthy/vegan options available. Overall, a great spot for a quick, clean, and reliable meal!",
+        "rating": 4,
+        "analysis": {
+            "sentiment": "Mixed",
+            "summary": "Excellent cleanliness, fresh food, and fast service were praised, but the payment system was glitchy and healthy options were limited.",
+            "tags": [
+                "Exceptional Cleanliness",
+                "Rapid Service",
+                "Payment System Glitch"
+            ],
+            "action_item": "Investigate and resolve the reported glitches in the digital payment system immediately to ensure smooth transactions."
+        }
     }
 ]
