@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2026-01-07 18:18",
+        "name": "Vaibhav Gupta",
+        "text": "Feels very good , I loved the experience of provided services.",
+        "rating": 4,
+        "analysis": {
+            "sentiment": "Positive",
+            "summary": "Customer highly enjoyed the experience.",
+            "tags": [
+                "High Satisfaction",
+                "Positive Experience",
+                "Comfort/Feel"
+            ],
+            "action_item": "Maintain current high standards of service and product quality."
+        }
+    },
+    {
+        "id": 2,
+        "timestamp": "2026-01-07 19:15",
+        "name": "Jack Harry",
+        "text": "The perfect place from which to explore Helsinki\r\nVery comfortable and warm room. Plenty of electric sockets to charge my devices and work with my laptop. Great TV and really excellent hot shower, so easy to use. Friendly staff and fantastic breakfasts. I love the Karelian pies. The hotel is very central within easy reach of shops, eating places and metro, trams, buses and the Central Station. I will certainly be back.",
+        "rating": 4,
+        "analysis": {
+            "sentiment": "Positive",
+            "summary": "Guests loved the comfortable, warm room, excellent shower, central location, and fantastic breakfast, promising a return visit.",
+            "tags": [
+                "Excellent Location",
+                "Fantastic Breakfast",
+                "Comfortable Amenities"
+            ],
+            "action_item": "Ensure the kitchen maintains the quality and consistent availability of the popular Karelian pies at breakfast."
+        }
+    },
+    {
+        "id": 3,
+        "timestamp": "2026-01-07 19:30",
+        "name": "John Doe",
+        "text": "\"Absolutely horrific experience. I pre-booked a ride for a 7:00 AM airport drop-off, but the driver didn't show up until 7:45 AM. I had to wait on the curb for 45 minutes while the app repeatedly lied, saying he was '2 minutes away'.\r\nWhen the cab finally arrived, the situation went from bad to worse. The driver was acting extremely strange\u2014he was slurred in his speech, couldn't follow basic GPS directions, and the car smelled strongly of alcohol. He was driving recklessly, swerving between lanes, and at one point almost hit a curb. I felt so unsafe that I had to ask him to pull over halfway through the trip and cancel the ride myself.\r\nTo top it off, I was still charged a cancellation fee even though the driver was clearly unfit to drive. This service is unreliable and dangerous. Avoid at all costs!\"",
+        "rating": 1,
+        "analysis": {
+            "sentiment": "Negative",
+            "summary": "Driver was 45 minutes late, smelled of alcohol, drove recklessly, and the customer was unfairly charged a cancellation fee.",
+            "tags": [
+                "Extreme Delay",
+                "Driver Safety Concern",
+                "Unfair Billing"
+            ],
+            "action_item": "Immediately investigate the driver for alleged intoxication and reckless driving, and refund the customer the cancellation fee."
+        }
+    },
+    {
+        "id": 4,
+        "timestamp": "2026-01-07 19:37",
+        "name": "Adia Johnson",
+        "text": "I am a premium member, and the platform promised 1-day delivery at the time of purchase. I even opted for standard shipping which should have taken 3 days at most. It has now been 7 days, and I still haven\u2019t received my package.\r\nWhile the app shows the item is 'shipped,' the tracking hasn't updated in four days. To make matters worse, the contact numbers provided for the delivery service are either non-existent or perpetually unreachable. I\u2019ve reached out to customer support multiple times; they keep telling me 'not to worry' and that they are 'checking on it,' but no actual action has been taken.\r\nI understand that the e-commerce store itself doesn't personally deliver the items, but they are responsible for the logistics partners they choose. As a premium member, I expect better accountability. The product may be good, but the experience has been incredibly frustrating.",
+        "rating": 3,
+        "analysis": {
+            "sentiment": "Negative",
+            "summary": "Premium member experienced a 7-day delivery delay, broken tracking, and received no help from unresponsive customer support.",
+            "tags": [
+                "Delivery Delay",
+                "Unresponsive Support",
+                "Broken Tracking"
+            ],
+            "action_item": "Immediately escalate the package location investigation and audit the provided logistics partner contact information for accuracy and responsiveness."
+        }
+    }
+]

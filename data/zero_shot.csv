@@ -1,0 +1,12 @@
+review_id,text_snippet,actual_stars,predicted_stars,reason,version
+0,We got here around midnight last Friday....,4,5,"The reviewer praised the friendly service, quality cocktails, and well-made pub grub. The atmosphere is suitable for a sports bar, and the venue is highly recommended for happy hour and day drinking.",Zero-Shot
+1,Brought a friend from Louisiana here.  S...,5,5,"The reviewer quotes a friend from Louisiana (an expert source) who called the dish the 'best' she's had outside of the state, indicating exceptional quality and high praise.",Zero-Shot
+2,"Every friday, my dad and I eat here. We ...",3,5,"The reviewer is a loyal, weekly customer who finds the food consistently good, filling, and satisfying enough to visit every Friday.",Zero-Shot
+3,"My husband and I were really, really dis...",1,1,The dealership misdiagnosed a simple dirt/debris cleaning issue (a $100 fix) as a major $3000+ moon roof track replacement. The customer felt deceived and lost brand loyalty.,Zero-Shot
+4,Love this place!  Was in phoenix 3 weeks...,5,5,The reviewer explicitly states 'Love this place!' and calls the food 'amazing.' They were a repeat customer (3 visits in 3 weeks) and highly recommend the restaurant ('Must try!').,Zero-Shot
+5,This hotel is in a good location for get...,4,5,"The reviewer found the hotel to be a ""great choice"" offering excellent value (low price, free parking) and cleanliness, despite minor noise issues. They would stay again.",Zero-Shot
+6,I love that this place has top seafood p...,4,5,"The review praises the 'top seafood plates' and high quality of sushi/salmon. The late-night service (till 2 AM) and affordable drinks are major selling points, outweighing minor service inconsistencies.",Zero-Shot
+7,Awesome if you like ramen...even awesome...,4,5,"The review uses highly positive language ('Awesome,' 'awesomer') indicating strong satisfaction. It explicitly praises both main offerings (ramen and boba tea).",Zero-Shot
+8,"Great place for a ""home office"" morning....",5,5,"The reviewer uses superlatives (""favorite places,"" ""awesome food"") and praises the atmosphere and generous portions.",Zero-Shot
+9,"1 star for service, but the food is not ...",1,1,"The reviewer experienced consistently poor portion sizes (little to no meat) across multiple visits and different menu items.
+The experience was so negative that the reviewer explicitly stated they will not be returning.",Zero-Shot
